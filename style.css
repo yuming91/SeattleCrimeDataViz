@@ -1,0 +1,61 @@
+ 
+  #bar{
+    width: 800px;
+    float: left;
+  }
+
+  .pie{
+    margin: 150px 0 0 60px;
+    float: left;
+  }
+
+  .axis {
+     font: 10px sans-serif;
+   }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  .bar {
+    fill: orange;
+  }
+  .d3-tip {
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+  }
+  .bar:hover {
+    fill: orangered ;
+  }
+  .tooltip {
+    background: #eee;
+    box-shadow: 0 0 5px #999999;
+    color: #333;
+    display: none;
+    font-size: 12px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    z-index: 1;
+  }
+  .legend {
+    font-size: 12px;
+  }
+  rect {
+    cursor: pointer;                                              /* NEW */
+    stroke-width: 2;
+  }
+  rect.disabled {                                                 /* NEW */
+    fill: transparent !important;                                 /* NEW */
+  }                                                               /* NEW */
+  h1 {                                                            /* NEW */
+    font-size: 14px;                                              /* NEW */
+    text-align: center;  
+  }  
